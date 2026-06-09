@@ -121,6 +121,7 @@ Short. A few paragraphs:
 - Crisis routing is **deterministic, not AI**; AI generates supportive content only.
 - Alpha: **~36 users, ~85% activation** (early-stage — frame as such).
 - GitHub: **github.com/jfay2493**. Live app: **switchbackrecovery.com** (use the public/marketing surface for any embeds or screenshots).
+- LinkedIn: **https://www.linkedin.com/in/jackfay93/** (profile is mid-rework — fine to link; do not quote text from it).
 
 ### Do NOT claim (these would read as naive or untrue to an informed reader)
 - That Switchback "treats," "cures," or "guarantees" anything. It's **support** software.
