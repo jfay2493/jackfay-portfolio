@@ -23,7 +23,7 @@ npm run build    # production build
 - `src/app/about/page.tsx` — about + contact
 - `src/components/top-nav.tsx`, `footer.tsx` — shared chrome
 - `docs/CASE_STUDY_BRIEF.md` — source of truth for all site copy
-- `CONTEXT.md` — CC↔Codex build coordination contract
+- `docs/_build-process/` — CC↔Codex build coordination notes (CONTEXT, task, results)
 
 ## Open placeholders (search the code for `Placeholder:`)
 
