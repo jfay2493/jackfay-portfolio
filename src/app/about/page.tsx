@@ -17,20 +17,21 @@ export default function About() {
             </h1>
             <div className="mt-8 space-y-6 text-lg leading-8 text-muted">
               <p>
-                I built Switchback as a self-directed, AI-assisted product:
-                product strategy, architecture, full-stack engineering, and the
-                hard judgment calls that come with sensitive software.
+                I&apos;m an analytically minded, creativity-focused person, and
+                I&apos;m eager to put that to work with my next team. Switchback
+                is where it all comes together — a live personal project that
+                started as a single idea and grew into something I care deeply
+                about. It helps users build healthy new habits by interrupting
+                negative feedback loops with positive ones.
               </p>
               <p>
-                My work starts with the core product insight, then moves through
-                the practical details: data model, interface, safety boundaries,
-                deployment, and the feedback loops that make a live product
-                sharper.
-              </p>
-              <p>
-                I work well in ambiguous spaces. I can frame the problem, decide
-                what matters, use AI tooling fluently, and keep enough taste and
-                restraint in the loop that the product still feels human.
+                My background ties together naturally: account management gave me
+                communication, marketing gave me high-level creativity, and my
+                recent analytical work flows directly into building Switchback.
+                Being naturally analytical, I see an idea and its inner workings
+                clearly, then find creative ways to improve and optimize it. I
+                care about making products that are genuine — and about finding a
+                career path doing work I&apos;m actually passionate about.
               </p>
             </div>
           </div>
@@ -62,10 +63,14 @@ export default function About() {
                 What I am looking for
               </h2>
               <p className="mt-4 leading-7 text-muted">
-                {/* Placeholder: Jack to supply specific roles, contract work, collaborations, or investor/collaborator line. */}
-                Placeholder: Jack to specify roles, contract work,
-                collaborations, or the exact opportunity he wants this site to
-                invite.
+                A full-time role that&apos;s product-focused and analytically
+                grounded — somewhere I can bring creativity and a sharp eye to
+                making products genuinely better. I do my best work on a team
+                built on constructive criticism and growth: data-informed, with
+                guidance and the freedom to run. Early-stage or established,
+                small team or large — I&apos;m most focused on gaining
+                experience and bringing creativity, organization, and cohesion
+                to the people I work with.
               </p>
             </article>
           </div>
@@ -77,9 +82,9 @@ export default function About() {
               Contact
             </h2>
             <p className="mt-5 text-lg leading-8 text-muted">
-              {/* Placeholder: Jack to supply fuller bio specifics if he wants this page to include more personal background. */}
-              For now, this page keeps the bio intentionally short until Jack
-              supplies the final background details.
+              The fastest way to reach me is email. I&apos;m also on GitHub and
+              LinkedIn — happy to talk product, engineering, or what I&apos;m
+              building next.
             </p>
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <Link

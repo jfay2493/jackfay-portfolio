@@ -183,9 +183,9 @@ export default function Switchback() {
                 </div>
               </dl>
               <p className="mt-6 border-t border-border pt-6 text-sm leading-6 text-muted">
-                {/* Placeholder: Jack to confirm timeline, solo-build detail, or codebase scale if he wants an additional proof point here. */}
-                Build-scale note placeholder: timeline or codebase-size detail
-                to be confirmed by Jack.
+                Built the first fully functional alpha live in about five weeks,
+                working part-time — picking up the infrastructure and AI side
+                quickly and shipping a working product fast.
               </p>
             </aside>
           </div>
@@ -224,6 +224,41 @@ export default function Switchback() {
                   screenshot here after Jack or CC supplies approved imagery.
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section aria-labelledby="how-it-came-together" className="border-b border-border">
+          <div className="mx-auto max-w-4xl px-5 py-16 sm:px-6 lg:px-8">
+            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
+              How it came together
+            </p>
+            <h2
+              id="how-it-came-together"
+              className="mt-4 text-3xl font-semibold text-text sm:text-4xl"
+            >
+              From a daily reflection engine to a real product.
+            </h2>
+            <div className="mt-6 space-y-5 text-lg leading-8 text-muted">
+              <p>
+                Switchback started as a small project — a reflection engine to
+                ground myself each day. It&apos;s since become something I&apos;m
+                genuinely proud of and hope will reach a lot of people. Working
+                part-time, I built the first fully functional alpha live in about
+                five weeks, picking up the infrastructure and AI side quickly as
+                I went and shipping a working product fast.
+              </p>
+              <p>
+                From there I kept building on the foundation, adding features
+                that reinforce the positive feedback loops at the core of the
+                product. I workshopped the safety guidelines, how user
+                information improves the experience, and how to optimize the site
+                as a whole. Every main feature is something I developed myself
+                through AI-assisted workshops, then refined. Under the hood, a
+                relational database structured across 37 tables runs the back
+                end — the foundation that lets every user&apos;s experience stay
+                private, personal, and built to grow with them.
+              </p>
             </div>
           </div>
         </section>
