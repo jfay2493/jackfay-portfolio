@@ -7,19 +7,19 @@ const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("https://jackfay.com"),
   title: {
-    default: "Jack Fay — Product & Software",
+    default: "Jack Fay — Product Engineer",
     template: "%s | Jack Fay",
   },
   description:
-    "Jack Fay builds products end to end. Creator of Switchback, a recovery-support web app engineered around a single make-or-break moment.",
+    "Jack Fay is a product engineer. Creator of Switchback — a live recovery-support app with real users, built solo in five weeks.",
   openGraph: {
     type: "website",
     siteName: "Jack Fay",
     locale: "en_US",
     url: "https://jackfay.com",
-    title: "Jack Fay — Product & Software",
+    title: "Jack Fay — Product Engineer",
     description:
-      "Builder of Switchback. Product thinking, full-stack engineering, and AI integration — shipped.",
+      "Product engineer. Built Switchback: 36 live users, 85% activation, shipped solo in ~5 weeks.",
   },
   robots: { index: true, follow: true },
 };

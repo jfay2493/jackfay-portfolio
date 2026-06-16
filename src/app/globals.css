@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg: #0a0a0c;
-  --color-surface: #15151a;
-  --color-surface-2: #1d1d24;
-  --color-border: #2a2a33;
-  --color-text: #ededf0;
-  --color-muted: #9a9aa6;
-  --color-accent: #6ee7b7;
-  --color-accent-strong: #34d399;
+  --color-bg: #0c0c10;
+  --color-surface: #16161d;
+  --color-surface-2: #1e1e27;
+  --color-border: #2c2c38;
+  --color-text: #eeeef2;
+  --color-muted: #8f8fa0;
+  --color-accent: #818cf8;
+  --color-accent-strong: #6366f1;
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
@@ -25,5 +25,5 @@ body {
 /* Subtle gradient wash behind the hero */
 .hero-wash {
   background:
-    radial-gradient(60% 50% at 50% 0%, rgba(52, 211, 153, 0.08), transparent 70%);
+    radial-gradient(60% 50% at 50% 0%, rgba(99, 102, 241, 0.07), transparent 70%);
 }
