@@ -22,11 +22,12 @@ const decisions = [
 ];
 
 const engineering = [
-  "Stack: Next.js 16, React 19, TypeScript, Tailwind v4, Supabase (Postgres + Auth), Anthropic Claude (Sonnet 4.6), and Vercel.",
+  "Stack: Flutter (Dart), Riverpod, Supabase (Postgres + Auth + Edge Functions on Deno), Anthropic Claude (Sonnet 4.6), and Cloudflare Pages.",
   "Security: Row-Level Security enabled on every one of 37 tables, with policies enforcing that a user can only touch their own rows.",
-  "AI architecture: the Anthropic key never reaches the browser; model calls run from server actions and server components.",
+  "AI architecture: the Anthropic key never reaches the client; model calls run from Supabase Edge Functions so credentials stay server-side.",
   "Efficiency: daily reflections are cached per-user-per-day in the database so repeated loads do not re-hit the API.",
   "Data model: ~37 tables spanning assessments, journaling, interventions, a peer-support Circle, meeting companion, notifications, and referrals.",
+  "Targets iOS, Android, and web from a single codebase.",
 ];
 
 export default function Switchback() {
@@ -41,8 +42,9 @@ export default function Switchback() {
                 Switchback case study
               </p>
               <h1 className="mt-5 text-4xl font-semibold leading-tight text-text sm:text-5xl lg:text-6xl">
-                A recovery-support web app built around a single make-or-break
-                moment: someone has an urge, opens the app, and does not relapse.
+                A recovery-support app — iOS, Android, and web — built around a
+                single make-or-break moment: someone has an urge, opens the app,
+                and does not relapse.
               </h1>
               <p className="mt-6 max-w-3xl text-lg leading-8 text-muted">
                 Solo creator and lead builder: product decisions, architecture,
@@ -205,10 +207,10 @@ export default function Switchback() {
                   Live, early, and real.
                 </h2>
                 <p className="mt-5 text-lg leading-8 text-muted">
-                  Switchback is live in a private alpha with real users:
+                  Switchback is live and open to users on iOS, Android, and web:
                   approximately 36 users and approximately 85% activation at
-                  last measure. Early-stage alpha, told straight, is more
-                  credible than vague scale claims.
+                  last measure. Early-stage, told straight, is more credible
+                  than vague scale claims.
                 </p>
                 <Link
                   href="https://switchbackrecovery.com"

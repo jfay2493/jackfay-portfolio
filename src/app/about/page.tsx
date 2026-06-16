@@ -29,9 +29,9 @@ export default function About() {
                 five weeks part-time through deliberate collaboration with AI
                 tools. I used Claude Code for deep reasoning and codebase work,
                 and Codex for execution and parallel tasks, routing between them
-                intentionally to get the best out of each. The stack: Next.js,
-                React, TypeScript, Postgres, Supabase, and Vercel. Now in private
-                alpha with real users.
+                intentionally to get the best out of each. The stack: Flutter,
+                Dart, Supabase (auth, Postgres, Edge Functions), Anthropic Claude,
+                and Cloudflare Pages. Live and open to users.
               </p>
               <p>
                 I&apos;m most motivated by work where creativity, analytical
@@ -60,9 +60,9 @@ export default function About() {
                 What I have shipped
               </h2>
               <p className="mt-4 leading-7 text-muted">
-                Switchback: a live recovery-support app using Next.js 16, React
-                19, TypeScript, Supabase, Anthropic Claude, and Vercel. ~36
-                users, ~85% activation, built solo in ~5 weeks part-time.
+                Switchback: a live recovery-support app built in Flutter, backed
+                by Supabase and Anthropic Claude, deployed on Cloudflare Pages.
+                ~36 users, ~85% activation, built solo in ~5 weeks part-time.
               </p>
             </article>
             <article className="rounded-lg border border-border bg-surface p-6">

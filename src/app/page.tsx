@@ -64,7 +64,8 @@ export default function Home() {
               <p className="mt-4 text-lg leading-8 text-muted">
                 37 database tables, Row-Level Security on every one, deterministic
                 crisis routing (not a model call), and three distinct user lanes
-                from a single codebase. In private alpha with real users.
+                from a single codebase. Live and open to users on iOS, Android,
+                and web.
               </p>
               <div className="mt-7 flex flex-col gap-3 sm:flex-row">
                 <Link
@@ -136,7 +137,7 @@ export default function Home() {
                   End-to-end delivery
                 </h3>
                 <p className="mt-3 leading-7 text-muted">
-                  Next.js, React, TypeScript, Postgres, Supabase, and Vercel.
+                  Flutter, Dart, Supabase, Anthropic Claude, and Cloudflare.
                   I drive products from idea to production — in deliberate
                   collaboration with AI tools.
                 </p>
