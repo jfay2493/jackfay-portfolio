@@ -13,29 +13,31 @@ export default function About() {
               About
             </p>
             <h1 className="mt-5 text-4xl font-semibold leading-tight text-text sm:text-5xl">
-              I spent years on the user side of products. Then I built one.
+              I spent years understanding users. Then I built something for them.
             </h1>
             <div className="mt-8 space-y-6 text-lg leading-8 text-muted">
               <p>
                 My background is in recruiting, sales, and account management —
-                roles where you live or die by whether someone gets value fast.
-                That experience shaped how I think about product: I default to
-                the user&apos;s moment, not the feature list.
+                roles that taught me how people think about value and what
+                actually makes something useful to them. That&apos;s where I
+                developed the product instincts I bring to everything I build.
               </p>
               <p>
-                Switchback started because I needed it. It&apos;s a
-                recovery-support app I designed and built from scratch —
-                product decisions, architecture, and code — and shipped to real
-                users in about five weeks part-time. Along the way I picked up
-                a full stack: Next.js, React, TypeScript, Postgres, Supabase,
-                Anthropic Claude, and Vercel. The project is in private alpha
-                and growing.
+                Switchback started because I needed it personally. It&apos;s a
+                recovery-support app I designed from scratch — product decisions,
+                architecture, and the full build — driven to production in about
+                five weeks part-time through deliberate collaboration with AI
+                tools. I used Claude Code for deep reasoning and codebase work,
+                and Codex for execution and parallel tasks, routing between them
+                intentionally to get the best out of each. The stack: Next.js,
+                React, TypeScript, Postgres, Supabase, and Vercel. Now in private
+                alpha with real users.
               </p>
               <p>
-                I work best at the intersection of clear thinking and fast
-                execution. I&apos;m comfortable making hard product calls —
-                what to build, what to cut, and where to draw lines — and then
-                following them all the way to a deployed product.
+                I&apos;m most motivated by work where creativity, analytical
+                thinking, and collaboration all matter. I want to be on a team
+                that moves fast, takes product seriously, and cares about
+                getting things right for the people using them.
               </p>
             </div>
           </div>

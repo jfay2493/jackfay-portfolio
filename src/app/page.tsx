@@ -17,8 +17,7 @@ export default function Home() {
                 Jack Fay
               </h1>
               <p className="mt-6 max-w-2xl text-2xl leading-snug text-text sm:text-3xl">
-                I own the product call and ship the code. Both, not one or the
-                other.
+                I own the product call and drive it to production.
               </p>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-muted">
                 Background in customer-facing roles — recruiting, sales, account
@@ -124,7 +123,7 @@ export default function Home() {
             <div className="mt-8 grid gap-4 md:grid-cols-3">
               <article className="rounded-lg border border-border bg-surface p-6">
                 <h3 className="text-lg font-semibold text-text">
-                  Product judgment
+                  Product thinking
                 </h3>
                 <p className="mt-3 leading-7 text-muted">
                   I find the one moment that matters and cut everything that
@@ -134,22 +133,22 @@ export default function Home() {
               </article>
               <article className="rounded-lg border border-border bg-surface p-6">
                 <h3 className="text-lg font-semibold text-text">
-                  Full-stack execution
+                  End-to-end delivery
                 </h3>
                 <p className="mt-3 leading-7 text-muted">
                   Next.js, React, TypeScript, Postgres, Supabase, and Vercel.
-                  From schema design to production deployment — I own the full
-                  stack.
+                  I drive products from idea to production — in deliberate
+                  collaboration with AI tools.
                 </p>
               </article>
               <article className="rounded-lg border border-border bg-surface p-6">
                 <h3 className="text-lg font-semibold text-text">
-                  User-side fluency
+                  Understanding users
                 </h3>
                 <p className="mt-3 leading-7 text-muted">
-                  Years in recruiting, sales, and account management. I came up
-                  on the user side of products — which means I think about
-                  outcomes, not features.
+                  Years in recruiting, sales, and account management taught me
+                  to think about outcomes before features — what someone actually
+                  needs, not what looks good on a spec.
                 </p>
               </article>
             </div>

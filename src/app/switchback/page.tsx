@@ -45,8 +45,11 @@ export default function Switchback() {
                 moment: someone has an urge, opens the app, and does not relapse.
               </h1>
               <p className="mt-6 max-w-3xl text-lg leading-8 text-muted">
-                Solo creator and lead builder: product, architecture, and
-                engineering, in AI-pair collaboration.
+                Solo creator and lead builder: product decisions, architecture,
+                and everything that shipped. Built in deliberate AI collaboration
+                — Claude Code for deep reasoning and codebase work, Codex for
+                execution and parallel tasks, routed intentionally to manage
+                context and get the best output from each.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Link
