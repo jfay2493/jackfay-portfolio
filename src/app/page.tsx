@@ -2,21 +2,6 @@ import Link from "next/link";
 import { Footer } from "@/components/footer";
 import { TopNav } from "@/components/top-nav";
 
-const strengths = [
-  {
-    title: "Product thinking",
-    body: "Finding the one moment that matters and building everything around it.",
-  },
-  {
-    title: "Full-stack engineering",
-    body: "Next.js, React, TypeScript, Postgres, and production deployment.",
-  },
-  {
-    title: "AI integration",
-    body: "Building with Claude and LLMs where they help, and knowing where not to trust them.",
-  },
-];
-
 export default function Home() {
   return (
     <>
@@ -26,18 +11,20 @@ export default function Home() {
           <div className="mx-auto max-w-6xl px-5 py-20 sm:px-6 sm:py-28 lg:px-8">
             <div className="max-w-3xl">
               <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
-                Product and software
+                Product engineer
               </p>
               <h1 className="mt-5 text-5xl font-semibold leading-tight text-text sm:text-6xl lg:text-7xl">
                 Jack Fay
               </h1>
               <p className="mt-6 max-w-2xl text-2xl leading-snug text-text sm:text-3xl">
-                I build products end to end, from the core insight to the live
-                deployment.
+                I own the product call and ship the code. Both, not one or the
+                other.
               </p>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-muted">
-                Most recently: Switchback, a recovery-support app engineered
-                around the single moment that decides everything.
+                Background in customer-facing roles — recruiting, sales, account
+                management. I understand users before I write a line. Currently
+                looking for a product engineer or product manager role where
+                judgment and execution both matter.
               </p>
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
                 <Link
@@ -57,28 +44,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section aria-labelledby="what-i-do" className="border-b border-border">
-          <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:px-8">
-            <h2 id="what-i-do" className="text-2xl font-semibold text-text">
-              What I do
-            </h2>
-            <div className="mt-8 grid gap-4 md:grid-cols-3">
-              {strengths.map((item) => (
-                <article
-                  key={item.title}
-                  className="rounded-lg border border-border bg-surface p-6"
-                >
-                  <h3 className="text-lg font-semibold text-text">
-                    {item.title}
-                  </h3>
-                  <p className="mt-3 leading-7 text-muted">{item.body}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section aria-labelledby="featured-project">
+        <section aria-labelledby="featured-project" className="border-b border-border">
           <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
@@ -91,11 +57,15 @@ export default function Home() {
                 Switchback
               </h2>
               <p className="mt-5 text-lg leading-8 text-muted">
-                Switchback is a live recovery-support app built around a single
-                make-or-break moment: urge, opens app, does not relapse. It is
-                in private alpha with real users, backed by 37 database tables,
-                Row-Level Security on every one, and deterministic crisis
-                routing where the stakes are too high for a model call.
+                A live recovery-support app built around a single make-or-break
+                moment: someone has an urge, opens the app, and does not relapse.
+                I designed the product, made the architecture calls, and shipped
+                the code — solo, in about five weeks part-time.
+              </p>
+              <p className="mt-4 text-lg leading-8 text-muted">
+                37 database tables, Row-Level Security on every one, deterministic
+                crisis routing (not a model call), and three distinct user lanes
+                from a single codebase. In private alpha with real users.
               </p>
               <div className="mt-7 flex flex-col gap-3 sm:flex-row">
                 <Link
@@ -118,25 +88,71 @@ export default function Home() {
             >
               <dl className="grid gap-6 sm:grid-cols-3 lg:grid-cols-1">
                 <div>
-                  <dt className="text-sm text-muted">Schema</dt>
+                  <dt className="text-sm text-muted">Live users</dt>
+                  <dd className="mt-1 text-3xl font-semibold text-text">
+                    ~36
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-sm text-muted">Activation rate</dt>
+                  <dd className="mt-1 text-3xl font-semibold text-text">
+                    ~85%
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-sm text-muted">Database</dt>
                   <dd className="mt-1 text-3xl font-semibold text-text">
                     37 tables
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-sm text-muted">Alpha</dt>
+                  <dt className="text-sm text-muted">Built in</dt>
                   <dd className="mt-1 text-3xl font-semibold text-text">
-                    ~36 users
-                  </dd>
-                </div>
-                <div>
-                  <dt className="text-sm text-muted">Activation</dt>
-                  <dd className="mt-1 text-3xl font-semibold text-text">
-                    ~85%
+                    ~5 weeks
                   </dd>
                 </div>
               </dl>
             </aside>
+          </div>
+        </section>
+
+        <section aria-labelledby="what-i-bring">
+          <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:px-8">
+            <h2 id="what-i-bring" className="text-2xl font-semibold text-text">
+              What I bring
+            </h2>
+            <div className="mt-8 grid gap-4 md:grid-cols-3">
+              <article className="rounded-lg border border-border bg-surface p-6">
+                <h3 className="text-lg font-semibold text-text">
+                  Product judgment
+                </h3>
+                <p className="mt-3 leading-7 text-muted">
+                  I find the one moment that matters and cut everything that
+                  doesn&apos;t serve it. No streaks, no gamification — because
+                  the wrong incentives are dangerous in this domain.
+                </p>
+              </article>
+              <article className="rounded-lg border border-border bg-surface p-6">
+                <h3 className="text-lg font-semibold text-text">
+                  Full-stack execution
+                </h3>
+                <p className="mt-3 leading-7 text-muted">
+                  Next.js, React, TypeScript, Postgres, Supabase, and Vercel.
+                  From schema design to production deployment — I own the full
+                  stack.
+                </p>
+              </article>
+              <article className="rounded-lg border border-border bg-surface p-6">
+                <h3 className="text-lg font-semibold text-text">
+                  User-side fluency
+                </h3>
+                <p className="mt-3 leading-7 text-muted">
+                  Years in recruiting, sales, and account management. I came up
+                  on the user side of products — which means I think about
+                  outcomes, not features.
+                </p>
+              </article>
+            </div>
           </div>
         </section>
       </main>

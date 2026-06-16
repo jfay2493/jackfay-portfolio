@@ -13,25 +13,29 @@ export default function About() {
               About
             </p>
             <h1 className="mt-5 text-4xl font-semibold leading-tight text-text sm:text-5xl">
-              I am a product-first builder who ships.
+              I spent years on the user side of products. Then I built one.
             </h1>
             <div className="mt-8 space-y-6 text-lg leading-8 text-muted">
               <p>
-                I&apos;m an analytically minded, creativity-focused person, and
-                I&apos;m eager to put that to work with my next team. Switchback
-                is where it all comes together — a live personal project that
-                started as a single idea and grew into something I care deeply
-                about. It helps users build healthy new habits by interrupting
-                negative feedback loops with positive ones.
+                My background is in recruiting, sales, and account management —
+                roles where you live or die by whether someone gets value fast.
+                That experience shaped how I think about product: I default to
+                the user&apos;s moment, not the feature list.
               </p>
               <p>
-                My background ties together naturally: account management gave me
-                communication, marketing gave me high-level creativity, and my
-                recent analytical work flows directly into building Switchback.
-                Being naturally analytical, I see an idea and its inner workings
-                clearly, then find creative ways to improve and optimize it. I
-                care about making products that are genuine — and about finding a
-                career path doing work I&apos;m actually passionate about.
+                Switchback started because I needed it. It&apos;s a
+                recovery-support app I designed and built from scratch —
+                product decisions, architecture, and code — and shipped to real
+                users in about five weeks part-time. Along the way I picked up
+                a full stack: Next.js, React, TypeScript, Postgres, Supabase,
+                Anthropic Claude, and Vercel. The project is in private alpha
+                and growing.
+              </p>
+              <p>
+                I work best at the intersection of clear thinking and fast
+                execution. I&apos;m comfortable making hard product calls —
+                what to build, what to cut, and where to draw lines — and then
+                following them all the way to a deployed product.
               </p>
             </div>
           </div>
@@ -55,22 +59,20 @@ export default function About() {
               </h2>
               <p className="mt-4 leading-7 text-muted">
                 Switchback: a live recovery-support app using Next.js 16, React
-                19, TypeScript, Supabase, Anthropic Claude, and Vercel.
+                19, TypeScript, Supabase, Anthropic Claude, and Vercel. ~36
+                users, ~85% activation, built solo in ~5 weeks part-time.
               </p>
             </article>
-            <article className="rounded-lg border border-dashed border-border bg-surface p-6">
+            <article className="rounded-lg border border-border bg-surface p-6">
               <h2 className="text-xl font-semibold text-text">
                 What I am looking for
               </h2>
               <p className="mt-4 leading-7 text-muted">
-                A full-time role that&apos;s product-focused and analytically
-                grounded — somewhere I can bring creativity and a sharp eye to
-                making products genuinely better. I do my best work on a team
-                built on constructive criticism and growth: data-informed, with
-                guidance and the freedom to run. Early-stage or established,
-                small team or large — I&apos;m most focused on gaining
-                experience and bringing creativity, organization, and cohesion
-                to the people I work with.
+                A product engineer or product manager role — somewhere that
+                values both sharp thinking and the ability to ship. I want to
+                work on a team that moves fast, takes product seriously, and
+                cares about getting things right for users. Early-stage or
+                growth-stage, small team preferred.
               </p>
             </article>
           </div>
